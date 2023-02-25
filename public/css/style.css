@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Inconsolata&family=Lacquer&family=Montserrat+Alternates:wght@300&display=swap');
+
 /* ------------- *
  *   CSS Reset   *
  * ------------- */
@@ -22,6 +24,14 @@ html, body {
 
     /* other colors */
     --white-col: white;
+
+    /* fonts */
+    --primary-font-family: 'Montserrat Alternates', sans-serif;
+}
+
+* {
+    color: var(--white-col);
+    font-family: var(--primary-font-family);
 }
 
 /* ----------- *
